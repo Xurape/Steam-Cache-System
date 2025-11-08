@@ -235,5 +235,5 @@ steam = SteamCacheSystem()
 steamid = input(f"{steam.prefix} SteamID:")
 steam.cacheUser(steamid)
 # steam.updateCachedUsers() <-- Uncomment this line to update all cached users
-# steam.clearCache() <-- Uncomment this line to clear the cache
+# steam.updateCache(steamid) <-- Uncomment this line to update a specific cached user
 print(Fore.RESET)
