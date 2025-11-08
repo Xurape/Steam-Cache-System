@@ -2,7 +2,7 @@
 This is a simple class I wrote some years ago to cache Steam user data locally using the Steam Web API. It allows you to store and update user information based on their Steamid64.
 
 ## ⚡️ Test it
-To test the class, clone the repository and copy the `.env.example` to `.env` in the root directory:
+To test the class, clone the repository and copy the `.env.example` to `.env` in the root directory, and then:
 ```bash
 pip install -r requirements.txt
 python3 main.py
